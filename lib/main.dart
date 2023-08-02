@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       translations: Language(),
       getPages: AppRouter.pages,
-      initialRoute: AppRouteNames.introductionScreen,
+      initialRoute: AppRouteNames.phoneNumberScreen,
       locale: Locale('fa', 'IR'),
       fallbackLocale: Locale('en', 'US'),
     );

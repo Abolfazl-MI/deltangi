@@ -8,6 +8,11 @@ class LanguageConstant {
   static const String enterWithPhone = 'enter_with_phone';
   static const String haveAnAccount = 'have_an_account';
   static const String singUp = 'signUp';
+  static const String youPhoneNumber = 'your_phone_number';
+  static const String pleaseEnterPhoneNumber = 'please_enter_your_phone_number';
+  static const String countryCode = 'country_code';
+  static const String examplePhoneNumber = 'example_phone_number';
+  static const String invalidPhone = 'invalid_phone_number';
 }
 
 class Language extends Translations {
@@ -21,7 +26,13 @@ class Language extends Translations {
           LanguageConstant.enterWithEmail: 'ورود با ایمیل',
           LanguageConstant.enterWithPhone: 'ورود با شماره تلفن همراه',
           LanguageConstant.haveAnAccount: 'قبلا ثبت نام کرده اید؟',
-          LanguageConstant.singUp: "ورود"
+          LanguageConstant.singUp: "ورود",
+          LanguageConstant.youPhoneNumber: 'شماره تلفن شما',
+          LanguageConstant.pleaseEnterPhoneNumber:
+              'لطفا شماره تلفن خود را وارد کنید',
+          LanguageConstant.countryCode: "کد کشور",
+          LanguageConstant.examplePhoneNumber: '۰۹۰۲۶۵۹۰۵۱۴', 
+          LanguageConstant.invalidPhone:'شماره تلفن وارد شده صحیح نمیباشد'
         },
         "en_US": {
           LanguageConstant.shareYourFelling:
@@ -31,6 +42,12 @@ class Language extends Translations {
           LanguageConstant.enterWithPhone: 'Login with phone',
           LanguageConstant.haveAnAccount: 'Have an account?',
           LanguageConstant.singUp: "sign in",
+          LanguageConstant.youPhoneNumber: 'Your phone number',
+          LanguageConstant.pleaseEnterPhoneNumber:
+              'Please Enter your phone number',
+          LanguageConstant.countryCode: 'Country code',
+          LanguageConstant.examplePhoneNumber: '0903964423246', 
+          LanguageConstant.invalidPhone:'Invalid phone number'
         },
       };
 }

@@ -1,11 +1,11 @@
 import 'package:deltangi/controllers/language_controller.dart';
 import 'package:deltangi/gen/assets.gen.dart';
 import 'package:deltangi/views/constants/my_colors.dart';
-import 'package:deltangi/views/constants/text_style.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:iconsax/iconsax.dart';
+
 import 'package:styled_text/tags/styled_text_tag.dart';
 import 'package:styled_text/widgets/styled_text.dart';
 

@@ -12,20 +12,41 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/arrow-forward.svg
+  String get arrowForward => 'assets/icons/arrow-forward.svg';
+
+  /// File path: assets/icons/arrow-left.svg
+  String get arrowLeft => 'assets/icons/arrow-left.svg';
+
   /// File path: assets/icons/chat.svg
   String get chat => 'assets/icons/chat.svg';
 
   /// File path: assets/icons/google_icon.svg
   String get googleIcon => 'assets/icons/google_icon.svg';
 
+  /// File path: assets/icons/left_arrow_small.svg
+  String get leftArrowSmall => 'assets/icons/left_arrow_small.svg';
+
   /// File path: assets/icons/moonoutline.svg
   String get moonoutline => 'assets/icons/moonoutline.svg';
+
+  /// File path: assets/icons/right_arrow_small.svg
+  String get rightArrowSmall => 'assets/icons/right_arrow_small.svg';
 
   /// File path: assets/icons/sun_outline.svg
   String get sunOutline => 'assets/icons/sun_outline.svg';
 
   /// List of all assets
-  List<String> get values => [chat, googleIcon, moonoutline, sunOutline];
+  List<String> get values => [
+        arrowForward,
+        arrowLeft,
+        chat,
+        googleIcon,
+        leftArrowSmall,
+        moonoutline,
+        rightArrowSmall,
+        sunOutline
+      ];
 }
 
 class $AssetsImagesGen {
