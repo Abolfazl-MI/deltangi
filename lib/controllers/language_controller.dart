@@ -13,6 +13,8 @@ class LanguageConstant {
   static const String countryCode = 'country_code';
   static const String examplePhoneNumber = 'example_phone_number';
   static const String invalidPhone = 'invalid_phone_number';
+  static const String verification = 'verification';
+  static const String weHaveSentCode = 'we_have_sent_code';
 }
 
 class Language extends Translations {
@@ -31,8 +33,10 @@ class Language extends Translations {
           LanguageConstant.pleaseEnterPhoneNumber:
               'لطفا شماره تلفن خود را وارد کنید',
           LanguageConstant.countryCode: "کد کشور",
-          LanguageConstant.examplePhoneNumber: '۰۹۰۲۶۵۹۰۵۱۴', 
-          LanguageConstant.invalidPhone:'شماره تلفن وارد شده صحیح نمیباشد'
+          LanguageConstant.examplePhoneNumber: '۰۹۰۲۶۵۹۰۵۱۴',
+          LanguageConstant.invalidPhone: 'شماره تلفن وارد شده صحیح نمیباشد',
+          LanguageConstant.verification: 'تایید صلاحیت',
+          LanguageConstant.weHaveSentCode:"ما یک کد پنج رقمی به شماره شما ارسال کردیم",
         },
         "en_US": {
           LanguageConstant.shareYourFelling:
@@ -46,8 +50,10 @@ class Language extends Translations {
           LanguageConstant.pleaseEnterPhoneNumber:
               'Please Enter your phone number',
           LanguageConstant.countryCode: 'Country code',
-          LanguageConstant.examplePhoneNumber: '0903964423246', 
-          LanguageConstant.invalidPhone:'Invalid phone number'
+          LanguageConstant.examplePhoneNumber: '0903964423246',
+          LanguageConstant.invalidPhone: 'Invalid phone number',
+          LanguageConstant.verification: 'Verification', 
+          LanguageConstant.weHaveSentCode:'We\'ve sent activision code to your phone'
         },
       };
 }
