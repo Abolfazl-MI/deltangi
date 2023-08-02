@@ -4,6 +4,7 @@ class MyColors {
   MyColors._();
   static Color kErrorColor = const Color(0xffA20030);
   static Color kBlackColor = const Color(0xff070707);
+  static Color kPinkColor = const Color(0xffFF8EB0);
   static Color kPrimaryLight = const Color(0xffFF6E99);
   static Color kSecondaryLight = const Color(0xffFF4179);
   static Color kBackGroundColorLight = const Color(0xffF9F9F9);
