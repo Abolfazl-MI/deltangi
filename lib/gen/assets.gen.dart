@@ -18,6 +18,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/arrow-left.svg
   String get arrowLeft => 'assets/icons/arrow-left.svg';
 
+  /// File path: assets/icons/camera.svg
+  String get camera => 'assets/icons/camera.svg';
+
   /// File path: assets/icons/chat.svg
   String get chat => 'assets/icons/chat.svg';
 
@@ -40,6 +43,7 @@ class $AssetsIconsGen {
   List<String> get values => [
         arrowForward,
         arrowLeft,
+        camera,
         chat,
         googleIcon,
         leftArrowSmall,

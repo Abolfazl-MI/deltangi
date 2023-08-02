@@ -15,6 +15,10 @@ class LanguageConstant {
   static const String invalidPhone = 'invalid_phone_number';
   static const String verification = 'verification';
   static const String weHaveSentCode = 'we_have_sent_code';
+  static const String choiceYourProfile = 'choice_your_profile';
+  static const String yourName = 'your_name';
+  static const String typeSomeThing = 'type_something';
+  static const String skip = 'بعدی';
 }
 
 class Language extends Translations {
@@ -36,7 +40,12 @@ class Language extends Translations {
           LanguageConstant.examplePhoneNumber: '۰۹۰۲۶۵۹۰۵۱۴',
           LanguageConstant.invalidPhone: 'شماره تلفن وارد شده صحیح نمیباشد',
           LanguageConstant.verification: 'تایید صلاحیت',
-          LanguageConstant.weHaveSentCode:"ما یک کد پنج رقمی به شماره شما ارسال کردیم",
+          LanguageConstant.weHaveSentCode:
+              "ما یک کد پنج رقمی به شماره شما ارسال کردیم",
+          LanguageConstant.choiceYourProfile: 'پروفایل خود را انتخاب کنید',
+          LanguageConstant.yourName: 'نام‌ شما',
+          LanguageConstant.typeSomeThing: 'چیزی تایپ کنید', 
+          LanguageConstant.skip:"بعدی"
         },
         "en_US": {
           LanguageConstant.shareYourFelling:
@@ -52,8 +61,13 @@ class Language extends Translations {
           LanguageConstant.countryCode: 'Country code',
           LanguageConstant.examplePhoneNumber: '0903964423246',
           LanguageConstant.invalidPhone: 'Invalid phone number',
-          LanguageConstant.verification: 'Verification', 
-          LanguageConstant.weHaveSentCode:'We\'ve sent activision code to your phone'
+          LanguageConstant.verification: 'Verification',
+          LanguageConstant.weHaveSentCode:
+              'We\'ve sent activision code to your phone',
+          LanguageConstant.choiceYourProfile: 'Choice your profile',
+          LanguageConstant.yourName: 'your name:',
+          LanguageConstant.typeSomeThing: 'type something...', 
+          LanguageConstant.skip:'skip'
         },
       };
 }
