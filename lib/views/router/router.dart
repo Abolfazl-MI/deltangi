@@ -1,5 +1,6 @@
 import 'package:deltangi/views/router/route_names.dart';
 import 'package:deltangi/views/screens/complete_profile/complete_profile_screen.dart';
+import 'package:deltangi/views/screens/find_your_partner/find_your_partnner.dart';
 import 'package:deltangi/views/screens/introduction/intro_screen.dart';
 import 'package:deltangi/views/screens/phone_number_screen/phone_number_screen.dart';
 import 'package:deltangi/views/screens/verifycode/verify_cdoe_screen.dart';
@@ -21,6 +22,10 @@ class AppRouter {
     ),
     GetPage(
         name: AppRouteNames.completeProfileScreen,
-        page: () => CompleteProfileScreen())
+        page: () => CompleteProfileScreen()),
+    GetPage(
+      name: AppRouteNames.findYourPartner,
+      page: () => FindYourPartner(),
+    )
   ];
 }

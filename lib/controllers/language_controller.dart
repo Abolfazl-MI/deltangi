@@ -19,6 +19,8 @@ class LanguageConstant {
   static const String yourName = 'your_name';
   static const String typeSomeThing = 'type_something';
   static const String skip = 'بعدی';
+  static const String fineYourPartner = 'find_your_partner';
+  static const String enterYourPartnerId = 'enter_your_partner_id';
 }
 
 class Language extends Translations {
@@ -44,8 +46,10 @@ class Language extends Translations {
               "ما یک کد پنج رقمی به شماره شما ارسال کردیم",
           LanguageConstant.choiceYourProfile: 'پروفایل خود را انتخاب کنید',
           LanguageConstant.yourName: 'نام‌ شما',
-          LanguageConstant.typeSomeThing: 'چیزی تایپ کنید', 
-          LanguageConstant.skip:"بعدی"
+          LanguageConstant.typeSomeThing: 'چیزی تایپ کنید',
+          LanguageConstant.skip: "بعدی",
+          LanguageConstant.fineYourPartner: 'پارتنرتو پیدا کن', 
+          LanguageConstant.enterYourPartnerId:'شماره تلفن یا ایمیل پارتنرت رو وارد کن بهش متصل شو'
         },
         "en_US": {
           LanguageConstant.shareYourFelling:
@@ -66,8 +70,10 @@ class Language extends Translations {
               'We\'ve sent activision code to your phone',
           LanguageConstant.choiceYourProfile: 'Choice your profile',
           LanguageConstant.yourName: 'your name:',
-          LanguageConstant.typeSomeThing: 'type something...', 
-          LanguageConstant.skip:'skip'
+          LanguageConstant.typeSomeThing: 'type something...',
+          LanguageConstant.skip: 'skip',
+          LanguageConstant.fineYourPartner: 'Find your partner',
+          LanguageConstant.enterYourPartnerId:'Enter your partner’s phone number or Email'
         },
       };
 }
