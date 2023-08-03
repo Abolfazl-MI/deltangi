@@ -6,4 +6,5 @@ class AppRouteNames {
   static const String verifyCodeScreen = '/verifyScreen';
   static const String completeProfileScreen = '/completeProfileScreen';
   static const String findYourPartner = "/findYourPartner";
+  static const String notificationSettingPage = '/notificationSettingScreen';
 }

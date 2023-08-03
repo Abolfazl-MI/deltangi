@@ -33,6 +33,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/moonoutline.svg
   String get moonoutline => 'assets/icons/moonoutline.svg';
 
+  /// File path: assets/icons/notification.svg
+  String get notification => 'assets/icons/notification.svg';
+
   /// File path: assets/icons/right_arrow_small.svg
   String get rightArrowSmall => 'assets/icons/right_arrow_small.svg';
 
@@ -48,6 +51,7 @@ class $AssetsIconsGen {
         googleIcon,
         leftArrowSmall,
         moonoutline,
+        notification,
         rightArrowSmall,
         sunOutline
       ];
@@ -55,6 +59,9 @@ class $AssetsIconsGen {
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
+
+  /// File path: assets/images/images.png
+  AssetGenImage get images => const AssetGenImage('assets/images/images.png');
 
   /// File path: assets/images/intro_dark_circle.png
   AssetGenImage get introDarkCircle =>
@@ -65,7 +72,7 @@ class $AssetsImagesGen {
       const AssetGenImage('assets/images/intro_light_circle.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [introDarkCircle, introLightCircle];
+  List<AssetGenImage> get values => [images, introDarkCircle, introLightCircle];
 }
 
 class Assets {

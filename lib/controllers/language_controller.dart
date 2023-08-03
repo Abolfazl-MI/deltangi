@@ -18,15 +18,30 @@ class LanguageConstant {
   static const String choiceYourProfile = 'choice_your_profile';
   static const String yourName = 'your_name';
   static const String typeSomeThing = 'type_something';
-  static const String skip = 'بعدی';
+  static const String skip = 'skip';
   static const String fineYourPartner = 'find_your_partner';
   static const String enterYourPartnerId = 'enter_your_partner_id';
+  static const String notification = 'notification';
+  static const String yesterday = 'yesterday';
+  static const String seeAll = 'seeAll';
+  static const String missYou = 'missYou';
+  static const String sentYou = 'sentYou';
+  static const String today = 'today';
+  static const String todayMessageCount = 'today_message_count';
+  static const String minAgo = 'a_min_ago';
 }
 
 class Language extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         "fa_IR": {
+          LanguageConstant.todayMessageCount: 'تعداد پیام های امروز',
+          LanguageConstant.today: 'امروز',
+          LanguageConstant.notification: 'اعلانات',
+          LanguageConstant.yesterday: 'دیروز',
+          LanguageConstant.seeAll: 'دیدن همه',
+          LanguageConstant.sentYou: 'برای شما ارسال کرد',
+          LanguageConstant.missYou: '💗دلم برات تنگ شده',
           LanguageConstant.shareYourFelling:
               "احساسات خودت با  <color>پارتنرت</color> به اشتراک بزار",
           LanguageConstant.joinUs:
@@ -48,10 +63,13 @@ class Language extends Translations {
           LanguageConstant.yourName: 'نام‌ شما',
           LanguageConstant.typeSomeThing: 'چیزی تایپ کنید',
           LanguageConstant.skip: "بعدی",
-          LanguageConstant.fineYourPartner: 'پارتنرتو پیدا کن', 
-          LanguageConstant.enterYourPartnerId:'شماره تلفن یا ایمیل پارتنرت رو وارد کن بهش متصل شو'
+          LanguageConstant.fineYourPartner: 'پارتنرتو پیدا کن',
+          LanguageConstant.enterYourPartnerId:
+              'شماره تلفن یا ایمیل پارتنرت رو وارد کن بهش متصل شو', 
+          LanguageConstant.minAgo:'دقیقه قبل',
         },
         "en_US": {
+          LanguageConstant.minAgo:'minute ago',
           LanguageConstant.shareYourFelling:
               "Share your feeling with your <color>partner</color>",
           LanguageConstant.joinUs: "Join us and share your felling easily",
@@ -73,7 +91,15 @@ class Language extends Translations {
           LanguageConstant.typeSomeThing: 'type something...',
           LanguageConstant.skip: 'skip',
           LanguageConstant.fineYourPartner: 'Find your partner',
-          LanguageConstant.enterYourPartnerId:'Enter your partner’s phone number or Email'
+          LanguageConstant.enterYourPartnerId:
+              'Enter your partner’s phone number or Email',
+          LanguageConstant.notification: 'Notification',
+          LanguageConstant.yesterday: 'yesterday',
+          LanguageConstant.seeAll: 'See all',
+          LanguageConstant.sentYou: 'send you',
+          LanguageConstant.missYou: 'I miss you 💗',
+          LanguageConstant.today: 'Today',
+          LanguageConstant.todayMessageCount: 'Today’s messages'
         },
       };
 }

@@ -41,6 +41,7 @@ dependencies:
   styled_text: ^8.1.0
   intl_phone_field: ^3.2.0
   pinput: ^2.3.0
+  intl: ^0.18.1
   
   
 

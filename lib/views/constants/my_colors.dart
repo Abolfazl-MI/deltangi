@@ -16,4 +16,5 @@ class MyColors {
   static Color kPrimaryDarkColor = Color(0xff6187FF);
   static Color kSecondaryDarkColor = Color(0xffADC0FF);
   static Color kSurfaceColorDark = Color(0xff252525);
+  static Color kBlack = Color(0xff1B1B1B);
 }
