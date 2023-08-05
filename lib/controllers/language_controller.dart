@@ -32,13 +32,17 @@ class LanguageConstant {
   static const String dailyNote = 'daily_notes';
   static const String youCouldWriteDailyNotes = 'you_could_write_daily_notes';
   static const String send = 'send';
+  static const String editEmail = 'editEmail';
+  static const String pleaseEnterEmail = 'please_enter_email_address';
 }
 
 class Language extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         "fa_IR": {
-          LanguageConstant.send:'ارسال',
+          LanguageConstant.pleaseEnterEmail: 'لطفا ایمیل خود را وارد کنید',
+          LanguageConstant.editEmail: 'تغییر ایمیل',
+          LanguageConstant.send: 'ارسال',
           LanguageConstant.dailyNote: 'متن روزانه',
           LanguageConstant.youCouldWriteDailyNotes:
               'هر روز میتونید متنی برای پارتنر خود بنویسید',
@@ -76,7 +80,9 @@ class Language extends Translations {
           LanguageConstant.minAgo: 'دقیقه قبل',
         },
         "en_US": {
-          LanguageConstant.send:'Send',
+          LanguageConstant.pleaseEnterEmail: 'Please enter your Email Address',
+          LanguageConstant.editEmail: 'Change your email',
+          LanguageConstant.send: 'Send',
           LanguageConstant.minAgo: 'minute ago',
           LanguageConstant.shareYourFelling:
               "Share your feeling with your <color>partner</color>",
