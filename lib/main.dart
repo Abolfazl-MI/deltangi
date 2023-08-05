@@ -32,8 +32,8 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       translations: Language(),
       getPages: AppRouter.pages,
-      initialRoute: AppRouteNames.editEmailScreen,
-      locale: Locale('fa', 'IR'),
+      initialRoute: AppRouteNames.setEditUserNameScreen,
+      locale: Locale('en', 'Us'),
       fallbackLocale: Locale('en', 'US'),
     );
   }

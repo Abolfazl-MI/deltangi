@@ -34,12 +34,18 @@ class LanguageConstant {
   static const String send = 'send';
   static const String editEmail = 'editEmail';
   static const String pleaseEnterEmail = 'please_enter_email_address';
+  static const String createUserName = 'create_user_name';
+  static const String editUserName = 'edit_user_name';
+  static const String setUserName = 'set_user_named';
+  static const String contactsFindYouWithId = 'contact_could_find_you_by_id';
 }
 
 class Language extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         "fa_IR": {
+          LanguageConstant.contactsFindYouWithId:'مخاطب شما میتواند شما با استفاده از ایدی شما را پیدا کند', 
+          LanguageConstant.setUserName:'نام کاربری خود را ایجاد کنید',
           LanguageConstant.pleaseEnterEmail: 'لطفا ایمیل خود را وارد کنید',
           LanguageConstant.editEmail: 'تغییر ایمیل',
           LanguageConstant.send: 'ارسال',
@@ -116,7 +122,9 @@ class Language extends Translations {
           LanguageConstant.todayMessageCount: 'Today’s messages',
           LanguageConstant.dailyNote: 'Daily Messages',
           LanguageConstant.youCouldWriteDailyNotes:
-              'you can write message to your  partner every day'
+              'you can write message to your  partner every day', 
+              LanguageConstant.contactsFindYouWithId:'Your contacts could find you by id', 
+          LanguageConstant.setUserName:'User Name'
         },
       };
 }

@@ -9,4 +9,5 @@ class AppRouteNames {
   static const String notificationSettingPage = '/notificationSettingScreen';
   static const String dailyNotes = '/dailyNotesScreen';
   static const String editEmailScreen = '/editEmailScreen';
+  static const String setEditUserNameScreen = '/setEditUsernameScreen';
 }
