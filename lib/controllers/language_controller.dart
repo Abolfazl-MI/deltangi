@@ -29,12 +29,19 @@ class LanguageConstant {
   static const String today = 'today';
   static const String todayMessageCount = 'today_message_count';
   static const String minAgo = 'a_min_ago';
+  static const String dailyNote = 'daily_notes';
+  static const String youCouldWriteDailyNotes = 'you_could_write_daily_notes';
+  static const String send = 'send';
 }
 
 class Language extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         "fa_IR": {
+          LanguageConstant.send:'ارسال',
+          LanguageConstant.dailyNote: 'متن روزانه',
+          LanguageConstant.youCouldWriteDailyNotes:
+              'هر روز میتونید متنی برای پارتنر خود بنویسید',
           LanguageConstant.todayMessageCount: 'تعداد پیام های امروز',
           LanguageConstant.today: 'امروز',
           LanguageConstant.notification: 'اعلانات',
@@ -65,11 +72,12 @@ class Language extends Translations {
           LanguageConstant.skip: "بعدی",
           LanguageConstant.fineYourPartner: 'پارتنرتو پیدا کن',
           LanguageConstant.enterYourPartnerId:
-              'شماره تلفن یا ایمیل پارتنرت رو وارد کن بهش متصل شو', 
-          LanguageConstant.minAgo:'دقیقه قبل',
+              'شماره تلفن یا ایمیل پارتنرت رو وارد کن بهش متصل شو',
+          LanguageConstant.minAgo: 'دقیقه قبل',
         },
         "en_US": {
-          LanguageConstant.minAgo:'minute ago',
+          LanguageConstant.send:'Send',
+          LanguageConstant.minAgo: 'minute ago',
           LanguageConstant.shareYourFelling:
               "Share your feeling with your <color>partner</color>",
           LanguageConstant.joinUs: "Join us and share your felling easily",
@@ -99,7 +107,10 @@ class Language extends Translations {
           LanguageConstant.sentYou: 'send you',
           LanguageConstant.missYou: 'I miss you 💗',
           LanguageConstant.today: 'Today',
-          LanguageConstant.todayMessageCount: 'Today’s messages'
+          LanguageConstant.todayMessageCount: 'Today’s messages',
+          LanguageConstant.dailyNote: 'Daily Messages',
+          LanguageConstant.youCouldWriteDailyNotes:
+              'you can write message to your  partner every day'
         },
       };
 }

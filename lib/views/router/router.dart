@@ -1,5 +1,6 @@
 import 'package:deltangi/views/router/route_names.dart';
 import 'package:deltangi/views/screens/complete_profile/complete_profile_screen.dart';
+import 'package:deltangi/views/screens/daily_notes/daily_note_screeen.dart';
 import 'package:deltangi/views/screens/find_your_partner/find_your_partnner.dart';
 import 'package:deltangi/views/screens/introduction/intro_screen.dart';
 import 'package:deltangi/views/screens/notification_setting/notification_setting.dart';
@@ -27,7 +28,10 @@ class AppRouter {
     GetPage(
       name: AppRouteNames.findYourPartner,
       page: () => FindYourPartner(),
-    ), 
-    GetPage(name: AppRouteNames.notificationSettingPage, page: ()=>NotificationSettingScreen())
+    ),
+    GetPage(
+        name: AppRouteNames.notificationSettingPage,
+        page: () => NotificationSettingScreen()),
+    GetPage(name: AppRouteNames.dailyNotes, page: () => DailyNoteScreen())
   ];
 }
