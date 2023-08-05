@@ -38,14 +38,19 @@ class LanguageConstant {
   static const String editUserName = 'edit_user_name';
   static const String setUserName = 'set_user_named';
   static const String contactsFindYouWithId = 'contact_could_find_you_by_id';
+  static const String changeNumber = 'change_number';
+  static const String enterPhoneNumber = 'enter_phone_number';
 }
 
 class Language extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         "fa_IR": {
-          LanguageConstant.contactsFindYouWithId:'مخاطب شما میتواند شما با استفاده از ایدی شما را پیدا کند', 
-          LanguageConstant.setUserName:'نام کاربری خود را ایجاد کنید',
+          LanguageConstant.changeNumber:'تغییر شماره تلفن', 
+          LanguageConstant.enterPhoneNumber:'لطفا شماره جدید خود را وارد کنید',
+          LanguageConstant.contactsFindYouWithId:
+              'مخاطب شما میتواند شما با استفاده از ایدی شما را پیدا کند',
+          LanguageConstant.setUserName: 'نام کاربری خود را ایجاد کنید',
           LanguageConstant.pleaseEnterEmail: 'لطفا ایمیل خود را وارد کنید',
           LanguageConstant.editEmail: 'تغییر ایمیل',
           LanguageConstant.send: 'ارسال',
@@ -122,9 +127,12 @@ class Language extends Translations {
           LanguageConstant.todayMessageCount: 'Today’s messages',
           LanguageConstant.dailyNote: 'Daily Messages',
           LanguageConstant.youCouldWriteDailyNotes:
-              'you can write message to your  partner every day', 
-              LanguageConstant.contactsFindYouWithId:'Your contacts could find you by id', 
-          LanguageConstant.setUserName:'User Name'
+              'you can write message to your  partner every day',
+          LanguageConstant.contactsFindYouWithId:
+              'Your contacts could find you by id',
+          LanguageConstant.setUserName: 'User Name', 
+          LanguageConstant.changeNumber:'Change your number', 
+          LanguageConstant.enterPhoneNumber:'Please enter your phone number'
         },
       };
 }

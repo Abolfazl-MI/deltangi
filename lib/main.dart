@@ -29,10 +29,10 @@ class MyApp extends StatelessWidget {
       title: 'Deltangi',
       theme: AppThemeManager.lightMode,
       darkTheme: AppThemeManager.darkMode,
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       translations: Language(),
       getPages: AppRouter.pages,
-      initialRoute: AppRouteNames.setEditUserNameScreen,
+      initialRoute: AppRouteNames.editPhoneNumberScreen,
       locale: Locale('en', 'Us'),
       fallbackLocale: Locale('en', 'US'),
     );

@@ -2,6 +2,7 @@ import 'package:deltangi/views/router/route_names.dart';
 import 'package:deltangi/views/screens/complete_profile/complete_profile_screen.dart';
 import 'package:deltangi/views/screens/daily_notes/daily_note_screeen.dart';
 import 'package:deltangi/views/screens/edit_email_screen/edit_email_screen.dart';
+import 'package:deltangi/views/screens/edit_phone_number/edit_phone_number_screen.dart';
 import 'package:deltangi/views/screens/edit_user_name/edit_user_name.dart';
 import 'package:deltangi/views/screens/find_your_partner/find_your_partnner.dart';
 import 'package:deltangi/views/screens/introduction/intro_screen.dart';
@@ -43,6 +44,12 @@ class AppRouter {
       page: () => EditEmailScreen(),
     ),
     GetPage(
-        name: AppRouteNames.setEditUserNameScreen, page: () => EditUserName())
+      name: AppRouteNames.setEditUserNameScreen,
+      page: () => EditUserName(),
+    ),
+    GetPage(
+      name: AppRouteNames.editPhoneNumberScreen,
+      page: () => EditPhoneNumber(),
+    )
   ];
 }
