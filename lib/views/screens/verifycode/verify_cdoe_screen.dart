@@ -1,11 +1,11 @@
 import 'package:deltangi/controllers/language_controller.dart';
 import 'package:deltangi/gen/assets.gen.dart';
-import 'package:deltangi/views/constants/my_colors.dart';
+
 import 'package:deltangi/views/widgets/icon_button_background.dart';
 import 'package:deltangi/views/widgets/pin_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pinput/pinput.dart';
+
 
 class VerifyCodeScreen extends StatefulWidget {
   const VerifyCodeScreen({super.key});

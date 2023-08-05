@@ -9,7 +9,7 @@ class DailyNoteScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    FocusNode fieldFocus = FocusNode();
+ 
     TextTheme textTheme = Theme.of(context).textTheme;
     return Scaffold(
       floatingActionButton: ElevatedButton(
