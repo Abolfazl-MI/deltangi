@@ -11,4 +11,5 @@ class AppRouteNames {
   static const String editEmailScreen = '/editEmailScreen';
   static const String setEditUserNameScreen = '/setEditUsernameScreen';
   static const String editPhoneNumberScreen = '/editPhoneNumberScreen';
+  static const String visualSettingScreen = '/visualSettingScreen';
 }

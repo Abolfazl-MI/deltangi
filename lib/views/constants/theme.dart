@@ -32,6 +32,9 @@ class AppThemeManager {
         dividerTheme: DividerThemeData(
           color: MyColors.kSurfaceColorDark,
         ),
+        // switchTheme: SwitchThemeData(
+
+        // )
       );
   static ThemeData get lightMode => ThemeData(
         brightness: Brightness.light,

@@ -9,6 +9,7 @@ import 'package:deltangi/views/screens/introduction/intro_screen.dart';
 import 'package:deltangi/views/screens/notification_setting/notification_setting.dart';
 import 'package:deltangi/views/screens/phone_number_screen/phone_number_screen.dart';
 import 'package:deltangi/views/screens/verifycode/verify_cdoe_screen.dart';
+import 'package:deltangi/views/screens/visual_setting/visual_setting_screen.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
 class AppRouter {
@@ -50,6 +51,10 @@ class AppRouter {
     GetPage(
       name: AppRouteNames.editPhoneNumberScreen,
       page: () => EditPhoneNumber(),
+    ),
+    GetPage(
+      name: AppRouteNames.visualSettingScreen,
+      page: () => VisualSettingScreen(),
     )
   ];
 }

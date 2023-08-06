@@ -40,14 +40,28 @@ class LanguageConstant {
   static const String contactsFindYouWithId = 'contact_could_find_you_by_id';
   static const String changeNumber = 'change_number';
   static const String enterPhoneNumber = 'enter_phone_number';
+  static const String visualSetting = 'visual_setting';
+  static const String fontSize = 'font_size';
+  static const String setting = 'setting';
+  static const String darkMode = 'darkMode';
+  static const applyImageToBackground = 'apply_image_to_background';
+  static const applyChanges = 'apply_changes';
+  static const lorem = 'lorem';
 }
 
 class Language extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         "fa_IR": {
-          LanguageConstant.changeNumber:'تغییر شماره تلفن', 
-          LanguageConstant.enterPhoneNumber:'لطفا شماره جدید خود را وارد کنید',
+          LanguageConstant.lorem:
+              'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است ',
+          LanguageConstant.applyChanges: 'اعمال تتظیمات',
+          LanguageConstant.darkMode: 'حالت شب',
+          LanguageConstant.setting: 'تنظیمات',
+          LanguageConstant.fontSize: 'اندازه فونت',
+          LanguageConstant.visualSetting: 'تنظیمات ظاهری',
+          LanguageConstant.changeNumber: 'تغییر شماره تلفن',
+          LanguageConstant.enterPhoneNumber: 'لطفا شماره جدید خود را وارد کنید',
           LanguageConstant.contactsFindYouWithId:
               'مخاطب شما میتواند شما با استفاده از ایدی شما را پیدا کند',
           LanguageConstant.setUserName: 'نام کاربری خود را ایجاد کنید',
@@ -91,6 +105,14 @@ class Language extends Translations {
           LanguageConstant.minAgo: 'دقیقه قبل',
         },
         "en_US": {
+          LanguageConstant.lorem:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+          LanguageConstant.visualSetting: 'Visual Settings',
+          LanguageConstant.fontSize: 'Font size',
+          LanguageConstant.setting: 'settings',
+          LanguageConstant.darkMode: 'Dark Mode',
+          LanguageConstant.applyImageToBackground: 'اعمال عکس مخاطب در بکگراند',
+          LanguageConstant.applyChanges: 'Apply changes',
           LanguageConstant.pleaseEnterEmail: 'Please enter your Email Address',
           LanguageConstant.editEmail: 'Change your email',
           LanguageConstant.send: 'Send',
@@ -130,9 +152,9 @@ class Language extends Translations {
               'you can write message to your  partner every day',
           LanguageConstant.contactsFindYouWithId:
               'Your contacts could find you by id',
-          LanguageConstant.setUserName: 'User Name', 
-          LanguageConstant.changeNumber:'Change your number', 
-          LanguageConstant.enterPhoneNumber:'Please enter your phone number'
+          LanguageConstant.setUserName: 'User Name',
+          LanguageConstant.changeNumber: 'Change your number',
+          LanguageConstant.enterPhoneNumber: 'Please enter your phone number'
         },
       };
 }

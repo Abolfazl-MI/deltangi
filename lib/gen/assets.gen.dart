@@ -30,6 +30,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/left_arrow_small.svg
   String get leftArrowSmall => 'assets/icons/left_arrow_small.svg';
 
+  /// File path: assets/icons/messages.svg
+  String get messages => 'assets/icons/messages.svg';
+
   /// File path: assets/icons/moonoutline.svg
   String get moonoutline => 'assets/icons/moonoutline.svg';
 
@@ -50,6 +53,7 @@ class $AssetsIconsGen {
         chat,
         googleIcon,
         leftArrowSmall,
+        messages,
         moonoutline,
         notification,
         rightArrowSmall,
