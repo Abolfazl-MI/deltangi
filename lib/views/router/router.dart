@@ -1,13 +1,14 @@
 import 'package:deltangi/views/router/route_names.dart';
 import 'package:deltangi/views/screens/complete_profile/complete_profile_screen.dart';
 import 'package:deltangi/views/screens/daily_notes/daily_note_screeen.dart';
-import 'package:deltangi/views/screens/edit_email_screen/edit_email_screen.dart';
+import 'package:deltangi/views/screens/complete_profile/edit_email_screen/edit_email_screen.dart';
 import 'package:deltangi/views/screens/edit_phone_number/edit_phone_number_screen.dart';
 import 'package:deltangi/views/screens/edit_user_name/edit_user_name.dart';
 import 'package:deltangi/views/screens/find_your_partner/find_your_partnner.dart';
 import 'package:deltangi/views/screens/introduction/intro_screen.dart';
 import 'package:deltangi/views/screens/notification_setting/notification_setting.dart';
 import 'package:deltangi/views/screens/phone_number_screen/phone_number_screen.dart';
+import 'package:deltangi/views/screens/select_language_setting/select_language_setting.dart';
 import 'package:deltangi/views/screens/verifycode/verify_cdoe_screen.dart';
 import 'package:deltangi/views/screens/visual_setting/visual_setting_screen.dart';
 import 'package:get/get_navigation/get_navigation.dart';
@@ -55,6 +56,10 @@ class AppRouter {
     GetPage(
       name: AppRouteNames.visualSettingScreen,
       page: () => VisualSettingScreen(),
+    ),
+    GetPage(
+      name: AppRouteNames.selectLanguageSettingScreen,
+      page: () => SelectLanguageSetting(),
     )
   ];
 }

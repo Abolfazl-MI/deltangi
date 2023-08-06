@@ -17,4 +17,5 @@ class MyColors {
   static Color kSecondaryDarkColor = Color(0xffADC0FF);
   static Color kSurfaceColorDark = Color(0xff252525);
   static Color kBlack = Color(0xff1B1B1B);
+  static Color tinet3 = const Color(0xff424242);
 }

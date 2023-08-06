@@ -42,6 +42,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/right_arrow_small.svg
   String get rightArrowSmall => 'assets/icons/right_arrow_small.svg';
 
+  /// File path: assets/icons/search.svg
+  String get search => 'assets/icons/search.svg';
+
   /// File path: assets/icons/sun_outline.svg
   String get sunOutline => 'assets/icons/sun_outline.svg';
 
@@ -57,6 +60,7 @@ class $AssetsIconsGen {
         moonoutline,
         notification,
         rightArrowSmall,
+        search,
         sunOutline
       ];
 }

@@ -19,6 +19,10 @@ class AppThemeManager {
           onSurface: Colors.white,
           surface: MyColors.kSurfaceColorDark,
         ),
+        appBarTheme: AppBarTheme(
+          backgroundColor: MyColors.kBlack, 
+          elevation: 0,  
+        ),
         disabledColor: MyColors.kDisableColor,
         fontFamily: 'iransansx',
         textTheme: const TextTheme(
@@ -37,6 +41,10 @@ class AppThemeManager {
         // )
       );
   static ThemeData get lightMode => ThemeData(
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.white, 
+          elevation: 0,  
+        ),
         brightness: Brightness.light,
         scaffoldBackgroundColor: MyColors.kBackGroundColorLight,
         colorScheme: ColorScheme(

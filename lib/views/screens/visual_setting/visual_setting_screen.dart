@@ -138,7 +138,9 @@ class VisualSettingScreen extends StatelessWidget {
                         Container(
                           width: 1,
                           height: 20,
-                          color: Colors.black,
+                          color: _isDarkMode
+                              ? MyColors.tinet3
+                              : MyColors.kDisableColor,
                         ),
                         Switch(value: false, onChanged: (value) {})
                       ],
@@ -157,7 +159,9 @@ class VisualSettingScreen extends StatelessWidget {
                         Container(
                           width: 1,
                           height: 20,
-                          color: Colors.black,
+                          color: _isDarkMode
+                              ? MyColors.tinet3
+                              : MyColors.kDisableColor,
                         ),
                         Switch(value: true, onChanged: (value) {})
                       ],

@@ -32,8 +32,8 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       translations: Language(),
       getPages: AppRouter.pages,
-      initialRoute: AppRouteNames.visualSettingScreen,
-      locale: Locale('fa', 'Ir'),
+      initialRoute: AppRouteNames.selectLanguageSettingScreen,
+      locale: Locale('en', 'US'),
       fallbackLocale: Locale('en', 'US'),
     );
   }

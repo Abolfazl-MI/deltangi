@@ -47,12 +47,16 @@ class LanguageConstant {
   static const applyImageToBackground = 'apply_image_to_background';
   static const applyChanges = 'apply_changes';
   static const lorem = 'lorem';
+  static const selectYourLanguage = 'select_your_language';
+  static const language = 'language';
 }
 
 class Language extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         "fa_IR": {
+          LanguageConstant.language:'زبان',
+          LanguageConstant.selectYourLanguage: 'زبان خود را انتخاب کنید',
           LanguageConstant.lorem:
               'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است ',
           LanguageConstant.applyChanges: 'اعمال تتظیمات',
@@ -105,6 +109,7 @@ class Language extends Translations {
           LanguageConstant.minAgo: 'دقیقه قبل',
         },
         "en_US": {
+          LanguageConstant.selectYourLanguage: 'Choose your laguage',
           LanguageConstant.lorem:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
           LanguageConstant.visualSetting: 'Visual Settings',
@@ -154,7 +159,8 @@ class Language extends Translations {
               'Your contacts could find you by id',
           LanguageConstant.setUserName: 'User Name',
           LanguageConstant.changeNumber: 'Change your number',
-          LanguageConstant.enterPhoneNumber: 'Please enter your phone number'
+          LanguageConstant.enterPhoneNumber: 'Please enter your phone number', 
+          LanguageConstant.language:'Language'
         },
       };
 }
